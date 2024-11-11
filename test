@@ -1,0 +1,4 @@
+curl -X POST \
+-H 'Content-Type: application/json' \
+-d '{"content":"Hello World","attachment":"hello.jpg"}' \
+https://niwhu1ssn1.execute-api.us-east-1.amazonaws.com/notes
