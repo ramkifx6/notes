@@ -1,4 +1,7 @@
-curl -X POST \
--H 'Content-Type: application/json' \
--d '{"content":"Hello World","attachment":"hello.jpg"}' \
-https://niwhu1ssn1.execute-api.us-east-1.amazonaws.com/notes
+aws cognito-idp sign-up \
+  --region us-east-1 \
+  --client-id 2cghsmti1ilhelcneciem2olg6 \
+  --username admin@example.com \
+  --password Passw0rd!
+
+  
